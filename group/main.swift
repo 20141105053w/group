@@ -24,6 +24,8 @@ for item in arr
     print(ii)
 }
 
+
+
 for var i = 0; i < arr.count - 1; ++i
 {
     for var j = 0; j < arr.count - 1 - i; ++j
@@ -37,10 +39,17 @@ for var i = 0; i < arr.count - 1; ++i
     }
 }
 
-print("排序后的值：")
+print("从小到大：")
 
 for item in arr
 {
     var ii = item
     print(ii)
 }
+ print("从大到小：")
+arr=arr.reverse()
+for item in arr {
+    var yy=item
+    print(yy)
+}
+
